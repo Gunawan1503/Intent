@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="background">Set Background</string>
+    <string name="btn_dial">Tombol Dial</string>
+    <string name="produk_parcel">Produk with parcelable</string>
+    <string name="txt_produk">Produk</string>
+    <string name="txt_profile">Profile</string>
+    <string name="todo">TODO</string>
+    <string name="profile_name">CHRISTIAN GUNAWAN</string>
+    <string name="photos_name">Photos</string>
+    <string name="photo_count">119</string>
+    <string name="follower_name">Follower</string>
+    <string name="follower_count">200</string>
+    <string name="following_name">Following</string>
+    <string name="following_count">10</string>
+    <string name="txt_comment">Show All Comment</string>
+    <string name="txt_add">Add To Group</string>
+    <string name="txt_phone">+6289636061434</string>
+    <string name="txt_email">christiangunawan@apa.com</string>
+    <string name="txt_follow">Follow</string>
+</resources>
