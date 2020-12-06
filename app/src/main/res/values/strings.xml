@@ -18,4 +18,23 @@
     <string name="txt_phone">+6289636061434</string>
     <string name="txt_email">christiangunawan@apa.com</string>
     <string name="txt_follow">Follow</string>
+    <string name="txt_harga_produk">Rp. 15.000.000 — Rp.20.000.000</string>
+    <string name="txt_nama_produk">Promo 12:12 Big Sale Novasion LaunchPad Pro</string>
+    <string name="rating_count">4,5 |</string>
+    <string name="txt_buy">2,5RB Terjual</string>
+    <string name="detail_produk">Detail Produk</string>
+    <string name="stok_name">Stok</string>
+    <string name="stok_value">: 44</string>
+    <string name="merek_name">Merek</string>
+    <string name="merek_value">: Novasion</string>
+    <string name="from_name">Asal Produk</string>
+    <string name="from_value">: Import</string>
+    <string name="where_name">Dikirim Dari</string>
+    <string name="where_value">: Kota Bandung, Jawa Barat</string>
+    <string name="deskripsi_produk">Deskripsi Produk</string>
+    <string name="deskripsi_value1">100% ORIGINAL dan GARANSI RESMI</string>
+    <string name="deskripsi_value2">Novation is Launchpad Pro is the professional grid performance instrument. Create dynamic, expressive performances in Ableton Live or any other music software. Use the enhanced 8x8 grid of RGB velocity and pressure-sensitive pads to trigger and combine clips, play dynamic beats and melodies, and even control external MIDI hardware. Novation understands the pressures of performing live. </string>
+    <string name="deskripsi_value3">Immediately trigger and combine your clips with Session Mode. Create dynamic beats and play the grid just an instrument with Note Mode. In Dance Mode, easily apply effects to your performance, and in User Mode, create unique custom performances and layouts. The whole instrument is designed to keep you focused on your performance. It lets you easily and immediately apply effects (Device Mode), while dipping in and out of specific mixer controls at the touch of a button. Of course, if you want to get really creative, download a growing library of Max for Live devices, and control them using your Launchpad Pro. It is sleek, lightweight and tough enough that you can throw it in your bag and know it will survive even the roughest gigs. It also comes with everything you need to get started (cables and software): just plug it in and start making music.</string>
+    <string name="btn_buy">Beli Sekarang</string>
+    <string name="btn_back">Back</string>
 </resources>
