@@ -20,35 +20,35 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btn_view_profile.setOnClickListener{
-            val simpleintent = Intent(this@MainActivity, ProfileActivity::class.java)
-            startActivity(simpleintent)
+            val simpleIntent = Intent(this@MainActivity, ProfileActivity::class.java)
+            startActivity(simpleIntent)
         }
 
         btn_view_produk.setOnClickListener{
-            val withdata = Intent(this@MainActivity, ProdukActivity::class.java)
-            withdata.putExtra(ProdukActivity.EXTRA_STOK, "20")
-            withdata.putExtra(ProdukActivity.EXTRA_MEREK, "Novasion")
-            withdata.putExtra(ProdukActivity.EXTRA_FROM, "Import")
-            withdata.putExtra(ProdukActivity.EXTRA_WHERE, "Kota Bandung, Jawa Barat")
-            startActivity(withdata)
+            val withData = Intent(this@MainActivity, ProdukActivity::class.java)
+            withData.putExtra(ProdukActivity.EXTRA_STOK, "20")
+            withData.putExtra(ProdukActivity.EXTRA_MEREK, "Novasion")
+            withData.putExtra(ProdukActivity.EXTRA_FROM, "Import")
+            withData.putExtra(ProdukActivity.EXTRA_WHERE, "Kota Bandung")
+            startActivity(withData)
         }
 
         btn_view_produk_parcel.setOnClickListener{
-            val withparcel = Intent(this@MainActivity, ProdukParcelActivity::class.java)
-            val user = User(20, "Novasion", "Import", "Kota Bandung, Jawa Barat")
-            withparcel.putExtra(ProdukParcelActivity.EXTRA_USER, user)
-            startActivity(withparcel)
+            val withParcel = Intent(this@MainActivity, ProdukParcelActivity::class.java)
+            val user = User(20, "Novasion", "Import", "Kota Bandung")
+            withParcel.putExtra(ProdukParcelActivity.EXTRA_USER, user)
+            startActivity(withParcel)
         }
 
         btn_implisit.setOnClickListener {
-            val phonenumber = "089636061434"
-            val intent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:$phonenumber"))
-            startActivity(intent)
+            val phoneNumber = "089636061434"
+            val moveIntent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:$phoneNumber"))
+            startActivity(moveIntent)
         }
 
         btn_result.setOnClickListener {
-            val intent = Intent(this@MainActivity, ResultActivity::class.java)
-            startActivityForResult(intent, REQUEST_CODE)
+            val resultIntent = Intent(this@MainActivity, ResultActivity::class.java)
+            startActivityForResult(resultIntent, REQUEST_CODE)
         }
     }
 
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         if(resultCode == 200){
             val color = data?.getStringExtra(ResultActivity.EXTRA_COLOR)
             Log.d("Color", color.toString())
-            view_background.setBackgroundColor(Color.parseColor(color))
+            view_background.setBackgroundColor(Color.parseColor(color.toString()))
         }
     }
 }
